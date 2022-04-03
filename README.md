@@ -32,3 +32,4 @@ fallback installation: `install -g @lhci/cli@0.3.x`
   }
 }
 ```
+test
