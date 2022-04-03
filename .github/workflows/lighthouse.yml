@@ -13,4 +13,3 @@ jobs:
       - run: lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ env.LHCI_GITHUB_APP_TOKEN }}
-
