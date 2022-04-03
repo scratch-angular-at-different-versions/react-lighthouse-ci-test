@@ -17,7 +17,7 @@ jobs:
       with:
         urls: |
           ${{ steps.static_web_app_preview_url.outputs.PREVIEW_URL }}
-        configPath: ./.github/workflows/lighthousesrc.json
+        configPath: ./lighthouserc.json
         uploadArtifacts: true
         temporaryPublicStorage: true
         runs: 5
